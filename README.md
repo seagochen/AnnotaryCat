@@ -20,8 +20,8 @@ AnnotaryCat's menus are currently in Chinese. The menu items are:
 
 | Menu item | What it does |
 |---|---|
-| **帮助 › 发送问题报告…** (Help › Send problem report…) | **Recommended.** Creates the bundle, opens a new issue in this repository in your browser with the title and the template already filled in, and shows where the bundle is. |
-| **帮助 › 导出诊断包…** (Help › Export diagnostics bundle…) | Saves the bundle wherever you choose. Then open a [new issue](../../issues/new) yourself. |
+| Help › Send problem report… | **Recommended.** Creates the bundle, opens a new issue in this repository in your browser with the title and the template already filled in, and shows where the bundle is. |
+| Help › Export diagnostics bundle… | Saves the bundle wherever you choose. Then open a [new issue](../../issues/new) yourself. |
 
 Before you attach the bundle, look through it: the dialog can open every file in it. If something should not be public (a folder name, for example), remove that file from the zip or leave the bundle out and describe the problem in words.
 
