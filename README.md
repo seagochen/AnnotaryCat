@@ -1,6 +1,6 @@
 # AnnotaryCat Feedback
 
-**English** · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md)
+**English** · [Simplified Chinese](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md)
 
 This repository collects problem reports and feature requests for AnnotaryCat.
 
@@ -16,12 +16,12 @@ The diagnostics bundle is a `.zip` file that AnnotaryCat creates on your compute
 
 The logs record only command names, error codes and durations. They contain no project data, annotations, file contents, parameter values or passwords. Your home folder appears as `~`.
 
-AnnotaryCat's menus are currently in Chinese. The menu items are:
+AnnotaryCat's default interface language is English. The English menu items are:
 
 | Menu item | What it does |
 |---|---|
-| Help › Send problem report… | **Recommended.** Creates the bundle, opens a new issue in this repository in your browser with the title and the template already filled in, and shows where the bundle is. |
-| Help › Export diagnostics bundle… | Saves the bundle wherever you choose. Then open a [new issue](../../issues/new) yourself. |
+| **Help › Send a problem report…** | **Recommended.** Creates the bundle, opens a new issue in this repository in your browser with the title and the template already filled in, and shows where the bundle is. |
+| **Help › Export diagnostics…** | Saves the bundle wherever you choose. Then open a [new issue](../../issues/new) yourself. |
 
 Before you attach the bundle, look through it: the dialog can open every file in it. If something should not be public (a folder name, for example), remove that file from the zip or leave the bundle out and describe the problem in words.
 
@@ -33,15 +33,15 @@ Before you attach the bundle, look through it: the dialog can open every file in
 | macOS | `~/Library/Logs/AnnotaryCat` |
 | Linux | `$XDG_STATE_HOME/annotarycat/logs` (usually `~/.local/state/annotarycat/logs`) |
 
-Bundles made by 发送问题报告… are kept in the `reports` folder inside the log folder.
+Bundles made by Send a problem report… are kept in the `reports` folder inside the log folder.
 
 ## 2. Write the issue
 
 **Title:** `[Bug] AnnotaryCat <version> (<system>): <one-line summary>`
 
-For example: `[Bug] AnnotaryCat 0.2.0 (windows-x86_64): the export to COCO stops at 50%`. You can find the version under 帮助 › 关于 AnnotaryCat (Help › About).
+For example: `[Bug] AnnotaryCat 0.2.0 (windows-x86_64): the export to COCO stops at 50%`. You can find the version under Help › About AnnotaryCat.
 
-**Text:** use this template. 发送问题报告… fills it in for you. Keep the headings in English; write the text under them in any language.
+**Text:** use this template. Send a problem report… fills it in for you. Keep the headings in English; write the text under them in any language.
 
 ```markdown
 ## Description

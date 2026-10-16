@@ -1,6 +1,6 @@
 # Comentarios sobre AnnotaryCat
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · **Español** · [Português](README.pt.md) · [Русский](README.ru.md)
+[English](README.md) · [Chino simplificado](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · **Español** · [Português](README.pt.md) · [Русский](README.ru.md)
 
 Este repositorio recoge los informes de problemas y las sugerencias de funciones para AnnotaryCat.
 
@@ -16,12 +16,12 @@ El paquete de diagnóstico es un archivo `.zip` que AnnotaryCat crea en tu orden
 
 Los registros solo anotan nombres de comandos, códigos de error y duraciones. No contienen datos de proyectos, anotaciones, contenido de archivos, valores de parámetros ni contraseñas. Tu carpeta personal aparece como `~`.
 
-Por ahora los menús de AnnotaryCat solo están en chino. Las opciones que necesitas son:
+El idioma predeterminado de la interfaz de AnnotaryCat es el inglés. Las opciones del menú en inglés son:
 
 | Opción del menú | Qué hace |
 |---|---|
-| Ayuda › Enviar un informe de problema… | **Recomendado.** Crea el paquete, abre en tu navegador una issue nueva en este repositorio con el título y la plantilla ya rellenados, y te indica dónde está el paquete. |
-| Ayuda › Exportar el paquete de diagnóstico… | Guarda el paquete donde elijas. Después abre tú mismo una [issue nueva](../../issues/new). |
+| **Help › Send a problem report…** (Ayuda › Enviar un informe de problema…) | **Recomendado.** Crea el paquete, abre en tu navegador una issue nueva en este repositorio con el título y la plantilla ya rellenados, y te indica dónde está el paquete. |
+| **Help › Export diagnostics…** (Ayuda › Exportar el paquete de diagnóstico…) | Guarda el paquete donde elijas. Después abre tú mismo una [issue nueva](../../issues/new). |
 
 Antes de adjuntar el paquete, revísalo: el diálogo puede abrir cada uno de sus archivos. Si algo no debe ser público (por ejemplo, el nombre de una carpeta), quita ese archivo del zip o no adjuntes el paquete y describe el problema con palabras.
 
@@ -33,15 +33,15 @@ Antes de adjuntar el paquete, revísalo: el diálogo puede abrir cada uno de sus
 | macOS | `~/Library/Logs/AnnotaryCat` |
 | Linux | `$XDG_STATE_HOME/annotarycat/logs` (normalmente `~/.local/state/annotarycat/logs`) |
 
-Los paquetes creados con 发送问题报告… se guardan en la carpeta `reports`, dentro de la carpeta de registros.
+Los paquetes creados con Send a problem report… se guardan en la carpeta `reports`, dentro de la carpeta de registros.
 
 ## 2. Escribir la issue
 
 **Título:** `[Bug] AnnotaryCat <versión> (<sistema>): <resumen en una línea>`
 
-Por ejemplo: `[Bug] AnnotaryCat 0.2.0 (windows-x86_64): la exportación a COCO se detiene en el 50 %`. La versión aparece en 帮助 › 关于 AnnotaryCat (Ayuda › Acerca de).
+Por ejemplo: `[Bug] AnnotaryCat 0.2.0 (windows-x86_64): la exportación a COCO se detiene en el 50 %`. La versión aparece en Help › About AnnotaryCat (Ayuda › Acerca de).
 
-**Texto:** usa esta plantilla; 发送问题报告… la rellena por ti. Deja los encabezados en inglés y escribe debajo en el idioma que prefieras.
+**Texto:** usa esta plantilla; Send a problem report… la rellena por ti. Deja los encabezados en inglés y escribe debajo en el idioma que prefieras.
 
 ```markdown
 ## Description
