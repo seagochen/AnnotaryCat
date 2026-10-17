@@ -11,7 +11,11 @@ and assets so the site works under that path.
 
 - `_layouts/default.html`: shared navigation, document layout and footer.
 - `assets/site.css`: responsive styles, with no external fonts or scripts.
-- `assets/mark.svg`: website mark.
+- `assets/app-icon.png` and `assets/favicon.png`: 256px and 64px derivatives
+  of the app repository's `assets/app-default-icon.png`, shared by the header,
+  footer, homepage diagram and browser tab. Keep these in sync with the app;
+  use `sips -Z 256 <source> --out docs/assets/app-icon.png` and the same command
+  with `-Z 64` for `favicon.png`.
 - `index.md`: product homepage; the workbench illustration is HTML/CSS and is
   explicitly labelled as an illustration, not an app screenshot.
 - `privacy.md`, `terms.md`, `support.md`: multilingual resource pages. Their
