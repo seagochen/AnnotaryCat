@@ -6,7 +6,7 @@ sitemap: false
 # Website maintenance
 
 GitHub Pages builds this directory with Jekyll. The public base path is
-`/AnnotaryCat-Feedback`; use Liquid's `relative_url` filter for internal links
+`/AnnotaryCat`; use Liquid's `relative_url` filter for internal links
 and assets so the site works under that path.
 
 - `_layouts/default.html`: shared navigation, document layout and footer.

@@ -45,7 +45,7 @@ Applies to AnnotaryCat from the Mac App Store, the Microsoft Store and direct do
 ### 变更与联系
 
 本政策如有变更，会随应用更新发布，并在此页面注明生效日期。
-如有疑问，请在 <https://github.com/seagochen/AnnotaryCat-Feedback/issues> 提交问题。
+如有疑问，请在 <https://github.com/seagochen/AnnotaryCat/issues> 提交问题。
 
 ---
 
@@ -81,4 +81,4 @@ The app collects no information from children, because it collects no informatio
 ### Changes and contact
 
 Changes to this policy ship with app updates, and this page will show the date they take effect.
-Questions: <https://github.com/seagochen/AnnotaryCat-Feedback/issues>
+Questions: <https://github.com/seagochen/AnnotaryCat/issues>

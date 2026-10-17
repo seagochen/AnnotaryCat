@@ -47,7 +47,7 @@ AnnotaryCat 在你的电脑上运行，我们不收集、不上传你的数据�
 
 ### 8. 联系
 
-<https://github.com/seagochen/AnnotaryCat-Feedback/issues>
+<https://github.com/seagochen/AnnotaryCat/issues>
 
 ---
 
@@ -85,4 +85,4 @@ Changes to these terms ship with app updates and show their effective date. The 
 
 ### 8. Contact
 
-<https://github.com/seagochen/AnnotaryCat-Feedback/issues>
+<https://github.com/seagochen/AnnotaryCat/issues>

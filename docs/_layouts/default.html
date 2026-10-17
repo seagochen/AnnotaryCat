@@ -16,7 +16,7 @@
   <nav aria-label="主导航">
     <a href="{{ '/' | relative_url }}" {% if page.home %}aria-current="page"{% endif %}>概览</a>
     <a href="{{ '/support/' | relative_url }}" {% if page.url == '/support/' %}aria-current="page"{% endif %}>支持</a>
-    <a class="nav-github" href="https://github.com/seagochen/AnnotaryCat-Feedback/issues">反馈 ↗</a>
+    <a class="nav-github" href="https://github.com/seagochen/AnnotaryCat/issues">反馈 ↗</a>
   </nav>
 </header>
 <main id="main" {% unless page.home %}class="document wrap"{% endunless %}>
@@ -25,6 +25,6 @@
   <article class="prose">{{ content }}</article>
 {% endif %}
 </main>
-<footer class="footer wrap"><div><a class="brand" href="{{ '/' | relative_url }}">AnnotaryCat<span class="footer-dot">●</span></a><p>为认真对待数据的人而做。<br>Local work. Your data. Your control.</p></div><nav aria-label="页脚导航"><a href="{{ '/privacy/' | relative_url }}">隐私政策 / Privacy</a><a href="{{ '/terms/' | relative_url }}">订阅条款 / Terms</a><a href="{{ '/support/' | relative_url }}">支持 / Support</a><a href="https://github.com/seagochen/AnnotaryCat-Feedback">GitHub ↗</a></nav><small>© {{ 'now' | date: '%Y' }} Orlando Chen</small></footer>
+<footer class="footer wrap"><div><a class="brand" href="{{ '/' | relative_url }}">AnnotaryCat<span class="footer-dot">●</span></a><p>为认真对待数据的人而做。<br>Local work. Your data. Your control.</p></div><nav aria-label="页脚导航"><a href="{{ '/privacy/' | relative_url }}">隐私政策 / Privacy</a><a href="{{ '/terms/' | relative_url }}">订阅条款 / Terms</a><a href="{{ '/support/' | relative_url }}">支持 / Support</a><a href="https://github.com/seagochen/AnnotaryCat">GitHub ↗</a></nav><small>© {{ 'now' | date: '%Y' }} Orlando Chen</small></footer>
 </body>
 </html>
