@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy · 隐私政策
 permalink: /privacy/
+lang: zh-CN
 ---
 
 # AnnotaryCat 隐私政策 / Privacy Policy

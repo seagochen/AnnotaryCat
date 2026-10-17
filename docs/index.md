@@ -1,15 +1,14 @@
 ---
 title: AnnotaryCat
 permalink: /
+home: true
+description: 本地优先的数据标注工作台。图像、视频、文本，从数据到标注，始终由你掌控。
 ---
-
-# AnnotaryCat
-
-A data annotation workbench that runs entirely on your computer. Your images, videos and annotations stay in the folder you choose: no account, no cloud, nothing uploaded.
-
-完全在本机运行的数据标注工作台。图像、视频和标注都留在你选择的文件夹里：没有账户，没有云端，不上传任何数据。
-
-- [Privacy Policy · 隐私政策](privacy/)
-- [Subscription Terms · 订阅条款](terms/)
-- [Support · 支持](support/)
-- [Report a problem · 报告问题](https://github.com/seagochen/AnnotaryCat-Feedback/issues)
+<section class="hero wrap">
+  <div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> LOCAL FIRST. ALWAYS YOURS.</p><h1>专注标注。<br>数据，<span>留在你手里。</span></h1><p class="hero-description">从图像、视频到文本，把数据整理成下一步的起点。<br>AnnotaryCat 是完全在本机运行的数据标注工作台。<br>无需账户，你的工作区就是你的数据所在。</p><div class="actions"><a class="button primary" href="#workbench">认识 AnnotaryCat <span>↓</span></a><a class="button secondary" href="{{ '/support/' | relative_url }}">支持与常见问题 ↗</a></div><p class="hero-note">NO ACCOUNT <span>／</span> NO TELEMETRY <span>／</span> YOUR WORKSPACE</p></div>
+  <div class="illustration" role="img" aria-label="标注工作流程示意：在本地工作区中为图像框选目标。此为示意图，非应用截图。"><div class="window-bar"><span class="window-dots">● ● ●</span><span>AnnotaryCat / workspace</span><span>↗</span></div><div class="demo-body"><div class="demo-sidebar"><span class="demo-label">PROJECT</span><strong>Field notes</strong><span class="demo-selected">▧ &nbsp; 图像标注</span><span>▤ &nbsp; 数据集</span><span>◫ &nbsp; 导出</span><div class="demo-files"><span class="demo-label">IMAGES</span><span>001 &nbsp; landscape.jpg</span><span>002 &nbsp; woodland.jpg</span><span>003 &nbsp; morning.jpg</span></div><div class="local-label"><i></i> 本地工作区</div></div><div class="demo-canvas"><div class="canvas-top"><span>landscape.jpg</span><span>100%</span></div><div class="landscape"><div class="sun"></div><div class="mountain mountain-back"></div><div class="mountain mountain-front"></div><div class="tree tree-one"></div><div class="tree tree-two"></div><div class="annotation"><span>tree · 01</span><i></i><b></b></div><div class="annotation second"><span>tree · 02</span><i></i><b></b></div></div><div class="canvas-bottom"><span><i></i> 已保存在本机</span><span>2 个标注</span></div></div></div><div class="illustration-caption">ANNOTATION WORKFLOW <span>工作流程示意 / 非应用截图</span></div></div>
+</section>
+<div class="principles wrap"><span>你的文件夹，你的工作区</span><span>没有云端账户</span><span>没有遥测与使用统计</span><a href="{{ '/privacy/' | relative_url }}">了解数据如何被保护 ↗</a></div>
+<section class="workbench wrap" id="workbench"><div class="section-heading"><div><p class="eyebrow">01 / THE WORKBENCH</p><h2>从原始数据，<br>到有意义的标注。</h2></div><p>把注意力放在数据本身。<br>让工具衔接整理、标注与导出的每一步。</p></div><div class="features"><article><span class="feature-number">[ 01 ]</span><div class="feature-icon">▧</div><h3>多种数据，一处处理</h3><p>在同一个工作台中处理图像、视频和文本。免费版支持本地目标检测、图像分割与图像分类，项目数量不限。</p><span class="feature-tag">DETECTION · SEGMENTATION · CLASSIFICATION</span></article><article><span class="feature-number">[ 02 ]</span><div class="feature-icon">⌘</div><h3>融入你的工作流程</h3><p>Pro 提供 SSH 远程数据集、控制通道与 MCP，以及自定义字段，让标注工作连接你选择的工具。</p><span class="feature-tag">SSH · MCP · CUSTOM FIELDS</span></article><article><span class="feature-number">[ 03 ]</span><div class="feature-icon">↗</div><h3>数据始终由你掌控</h3><p>文件保存在你选择的位置。即使订阅结束，需要 Pro 的项目仍可打开、浏览和导出，你的数据不会被删除。</p><span class="feature-tag">LOCAL STORAGE · BROWSE · EXPORT</span></article></div></section>
+<section class="privacy-section wrap"><div><p class="eyebrow">02 / PRIVATE BY DESIGN</p><h2>你的数据，<br>不需要经过我们。</h2><p>没有接收你数据的服务器，没有广告，也没有后台分析。<br>只有在你明确要求时，数据才会发往你选择的目的地。</p><a class="text-link" href="{{ '/privacy/' | relative_url }}">阅读完整隐私政策 <span>↗</span></a></div><div class="data-flow"><div class="flow-folder">▰<span>你的工作区</span><small>图像 / 视频 / 文本 / 标注</small></div><div class="flow-line"><span>本地读写</span></div><div class="flow-app"><img src="{{ '/assets/mark.svg' | relative_url }}" width="44" height="44" alt=""><span>AnnotaryCat</span></div><p>YOUR COMPUTER. YOUR CONTROL.</p></div></section>
+<section class="help-section wrap"><p class="eyebrow">03 / HERE TO HELP</p><h2>让下一次标注，更顺手。</h2><p>遇到问题，或有一个更好的想法？一起把工作台打磨好。</p><div class="actions"><a class="button primary" href="https://github.com/seagochen/AnnotaryCat-Feedback/issues">报告问题或提出建议 ↗</a><a class="text-link" href="{{ '/support/' | relative_url }}">查看使用与订阅帮助 →</a></div><small>GitHub 问题与附件公开可见，请勿附上敏感数据。</small></section>

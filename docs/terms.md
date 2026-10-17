@@ -1,6 +1,7 @@
 ---
 title: Subscription Terms · 订阅条款
 permalink: /terms/
+lang: zh-CN
 ---
 
 # AnnotaryCat 订阅条款 / Subscription Terms

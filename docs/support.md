@@ -1,6 +1,7 @@
 ---
 title: Support · 支持
 permalink: /support/
+lang: zh-CN
 ---
 
 # AnnotaryCat 支持 / Support
