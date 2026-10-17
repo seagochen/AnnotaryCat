@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ page.lang | default: 'zh-CN' }}">
+<html lang="en" data-language="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,23 +8,26 @@
   <meta name="theme-color" content="#f7f6f2">
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/mark.svg' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  <script src="{{ '/assets/language-init.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/i18n.js' | relative_url }}"></script>
 </head>
 <body>
-<a class="skip" href="#main">跳至正文 / Skip to content</a>
+<a class="skip" href="#main"><span data-i18n="skip">Skip to content</span></a>
 <header class="header wrap">
-  <a class="brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/mark.svg' | relative_url }}" width="34" height="34" alt="">AnnotaryCat<span class="brand-caption">数据标注工作台</span></a>
-  <nav aria-label="主导航">
-    <a href="{{ '/' | relative_url }}" {% if page.home %}aria-current="page"{% endif %}>概览</a>
-    <a href="{{ '/support/' | relative_url }}" {% if page.url == '/support/' %}aria-current="page"{% endif %}>支持</a>
-    <a class="nav-github" href="https://github.com/seagochen/AnnotaryCat/issues">反馈 ↗</a>
+  <a class="brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/mark.svg' | relative_url }}" width="34" height="34" alt="">AnnotaryCat<span class="brand-caption"><span data-i18n="tagline">Local annotation workbench</span></span></a>
+  <nav aria-label="Main navigation" data-i18n-aria="mainNav">
+    <a href="{{ '/' | relative_url }}" {% if page.home %}aria-current="page"{% endif %}><span data-i18n="overview">Overview</span></a>
+    <a href="{{ '/support/' | relative_url }}" {% if page.url == '/support/' %}aria-current="page"{% endif %}><span data-i18n="support">Support</span></a>
+    <a class="nav-github" href="https://github.com/seagochen/AnnotaryCat/issues"><span data-i18n="feedback">Feedback ↗</span></a>
+    <label class="language-picker"><span class="sr-only" data-i18n="language">Language</span><select id="language-select" aria-label="Language"><option value="en">English</option><option value="zh-CN">简体中文</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="es">Español</option><option value="pt">Português</option><option value="ru">Русский</option></select></label>
   </nav>
 </header>
 <main id="main" {% unless page.home %}class="document wrap"{% endunless %}>
 {% if page.home %}{{ content }}{% else %}
-  <aside class="document-nav"><span class="eyebrow">RESOURCES / 项目资源</span><a href="{{ '/support/' | relative_url }}" {% if page.url == '/support/' %}aria-current="page"{% endif %}>支持与常见问题 <span>↗</span></a><a href="{{ '/privacy/' | relative_url }}" {% if page.url == '/privacy/' %}aria-current="page"{% endif %}>隐私政策 <span>↗</span></a><a href="{{ '/terms/' | relative_url }}" {% if page.url == '/terms/' %}aria-current="page"{% endif %}>订阅条款 <span>↗</span></a><p>本机工作，你的数据<br>由你掌控。</p></aside>
+  <aside class="document-nav"><span class="eyebrow"><span data-i18n="resources">RESOURCES</span></span><a href="{{ '/support/' | relative_url }}" {% if page.url == '/support/' %}aria-current="page"{% endif %}><span data-i18n="supportFaq">Support &amp; FAQ</span> <span>↗</span></a><a href="{{ '/privacy/' | relative_url }}" {% if page.url == '/privacy/' %}aria-current="page"{% endif %}><span data-i18n="privacy">Privacy Policy</span> <span>↗</span></a><a href="{{ '/terms/' | relative_url }}" {% if page.url == '/terms/' %}aria-current="page"{% endif %}><span data-i18n="terms">Subscription Terms</span> <span>↗</span></a><p><span data-i18n="localWork">Local work. Your data.</span><br><span data-i18n="yourControl">Your control.</span></p></aside>
   <article class="prose">{{ content }}</article>
 {% endif %}
 </main>
-<footer class="footer wrap"><div><a class="brand" href="{{ '/' | relative_url }}">AnnotaryCat<span class="footer-dot">●</span></a><p>为认真对待数据的人而做。<br>Local work. Your data. Your control.</p></div><nav aria-label="页脚导航"><a href="{{ '/privacy/' | relative_url }}">隐私政策 / Privacy</a><a href="{{ '/terms/' | relative_url }}">订阅条款 / Terms</a><a href="{{ '/support/' | relative_url }}">支持 / Support</a><a href="https://github.com/seagochen/AnnotaryCat">GitHub ↗</a></nav><small>© {{ 'now' | date: '%Y' }} Orlando Chen</small></footer>
+<footer class="footer wrap"><div><a class="brand" href="{{ '/' | relative_url }}">AnnotaryCat<span class="footer-dot">●</span></a><p><span data-i18n="footerCopy">Made for people who care about their data.</span><br><span data-i18n="footerSlogan">Local work. Your data. Your control.</span></p></div><nav aria-label="Footer navigation" data-i18n-aria="footerNav"><a href="{{ '/privacy/' | relative_url }}"><span data-i18n="privacy">Privacy Policy</span></a><a href="{{ '/terms/' | relative_url }}"><span data-i18n="terms">Subscription Terms</span></a><a href="{{ '/support/' | relative_url }}"><span data-i18n="support">Support</span></a><a href="https://github.com/seagochen/AnnotaryCat">GitHub ↗</a></nav><small>© {{ 'now' | date: '%Y' }} Orlando Chen</small></footer>
 </body>
 </html>
