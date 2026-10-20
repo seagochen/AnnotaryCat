@@ -5,7 +5,7 @@ permalink: /privacy/
 
 <h1><span data-i18n="privacy">Privacy Policy</span></h1>
 
-<p data-i18n="effective">Effective date: October 17, 2026</p>
+<p data-i18n="effective">Effective date: October 20, 2026</p>
 <p data-i18n="applies">Applies to AnnotaryCat from the Mac App Store, Microsoft Store and direct downloads.</p>
 
 <section class="localized-content" lang="en" data-content-language="en">
