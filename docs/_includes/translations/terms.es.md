@@ -1,16 +1,16 @@
 ### 1. Plan gratuito y Pro
 
-AnnotaryCat se puede usar gratis. El plan gratuito incluye detección de objetos, segmentación y clasificación de imágenes en datos locales, sin límite de proyectos. AnnotaryCat Pro es una suscripción de renovación automática que desbloquea las demás funciones: otros tipos de tareas, clasificación de documentos de texto, conjuntos de datos en servidores SSH, canal de control y MCP, campos personalizados y funciones de asistencia por IA a medida que estén disponibles. La página «AnnotaryCat Pro» de la aplicación describe lo incluido.
+AnnotaryCat se puede usar gratis. En la primera versión, el plan gratuito incluye detección de objetos y descripción de imágenes en datos locales, sin límite de proyectos. AnnotaryCat Pro es una suscripción de renovación automática que desbloquea, en esta versión, la clasificación y la segmentación de imágenes, la organización de conjuntos de datos ReID, la varita mágica local, las fuentes de datos remotas, el canal de control y MCP, y los campos personalizados. La primera versión solo está disponible en Mac App Store. La publicación en Microsoft Store se aplaza hasta después de la segunda versión, sin fecha fijada. Las tareas aún no disponibles y las funciones futuras no forman parte de lo prometido por la suscripción de esta versión. La página «AnnotaryCat Pro» de la aplicación describe lo incluido.
 
 ### 2. Compra y pago
 
-La suscripción se compra en Mac App Store o Microsoft Store. La tienda cobra a tu cuenta cuando confirmas la compra. Se aplica el precio mostrado en la pantalla de compra, que puede variar según la región y los impuestos. Nunca tenemos acceso a tus datos de pago.
+En la primera versión, la suscripción mensual o anual se compra en Mac App Store. Apple cobra a tu cuenta de la tienda cuando confirmas la compra. Se aplica el precio mostrado en la pantalla de compra, que puede variar según la región y los impuestos. Nunca tenemos acceso a tus datos de pago.
 
 ### 3. Renovación automática y cancelación
 
 - La suscripción se renueva automáticamente por el mismo periodo y al precio vigente, salvo que se cancele al menos 24 horas antes de que termine el periodo actual. La renovación se cobra durante las 24 horas anteriores al final del periodo.
-- Puedes gestionar o cancelar la suscripción en cualquier momento en los ajustes de tu cuenta de la tienda: en Mac App Store, «App Store › Cuenta › Suscripciones»; en Microsoft Store, «Servicios y suscripciones» de tu cuenta Microsoft. Tras cancelar, Pro sigue activo hasta el final del periodo actual.
-- Los reembolsos se rigen por la política de la tienda; solicítalos a Apple o Microsoft.
+- Puedes gestionar o cancelar la suscripción en cualquier momento en los ajustes de tu cuenta de la tienda: en Mac App Store, «App Store › Cuenta › Suscripciones». Tras cancelar, Pro sigue activo hasta el final del periodo actual.
+- Los reembolsos se rigen por la política de la tienda; solicítalos a Apple.
 
 ### 4. Al terminar una suscripción
 

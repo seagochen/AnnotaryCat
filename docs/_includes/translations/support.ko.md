@@ -4,9 +4,9 @@
 
 ### 구독
 
-- 구매, 갱신 및 취소는 스토어에서 처리합니다. Mac App Store에서는 “App Store › 계정 › 구독”, Microsoft Store에서는 Microsoft 계정의 “서비스 및 구독”에서 관리합니다.
+- 구매, 갱신 및 취소는 스토어에서 처리합니다. Mac App Store의 “App Store › 계정 › 구독”에서 관리합니다.
 - 새 컴퓨터를 사용하거나 재설치한 경우 앱의 “Help › AnnotaryCat Pro…”에서 “구매 복원”을 선택하세요.
-- 환불은 Apple 또는 Microsoft에 요청하세요.
+- 환불은 Apple에 요청하세요.
 
 ### 자주 묻는 질문
 
