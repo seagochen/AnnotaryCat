@@ -2,7 +2,7 @@
 title: AnnotaryCat
 permalink: /
 home: true
-description: A local annotation workbench for machine-learning images: detection, classification, segmentation, captioning and ReID. Your data stays in your hands.
+description: "A local annotation workbench for machine-learning images: detection, classification, segmentation, captioning and ReID. Your data stays in your hands."
 ---
 <section class="hero wrap">
   <div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> <span data-i18n="localFirst">LOCAL FIRST. ALWAYS YOURS.</span></p><h1><span data-i18n="heroA">Focus on annotation.</span><br><span data-i18n="heroB">Your data.</span><span><span data-i18n="heroC">In your hands.</span></span></h1><p class="hero-description"><span data-i18n="introA">Turn your images into training data.</span><br><span data-i18n="introB">AnnotaryCat is a data annotation workbench that runs locally.</span><br><span data-i18n="introC">No account. Just your workspace, on your computer.</span></p><div class="actions"><a class="button primary" href="#workbench"><span data-i18n="discover">Explore AnnotaryCat</span> <span>↓</span></a><a class="button secondary" href="{{ '/support/' | relative_url }}"><span data-i18n="supportCta">Support &amp; FAQ ↗</span></a></div><p class="hero-note"><span data-i18n="noAccount">NO ACCOUNT</span> <span>／</span> <span data-i18n="noTelemetry">NO TELEMETRY</span> <span>／</span> <span data-i18n="workspaceLabel">YOUR WORKSPACE</span></p></div>
