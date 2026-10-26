@@ -4,9 +4,9 @@
 
 ### Assinaturas
 
-- Compra, renovação e cancelamento são gerenciados pela loja: na Mac App Store, em “App Store › Conta › Assinaturas”; na Microsoft Store, em “Serviços e assinaturas” da sua conta Microsoft.
+- Compra, renovação e cancelamento são gerenciados pela loja: na Mac App Store, em “App Store › Conta › Assinaturas”.
 - Em um computador novo ou após reinstalar, escolha “Restaurar compras” em “Help › AnnotaryCat Pro…”.
-- Solicite reembolsos à Apple ou à Microsoft.
+- Solicite reembolsos à Apple.
 
 ### Perguntas frequentes
 

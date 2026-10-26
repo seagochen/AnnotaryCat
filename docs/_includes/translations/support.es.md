@@ -4,9 +4,9 @@
 
 ### Suscripciones
 
-- La compra, renovación y cancelación se gestionan en la tienda: en Mac App Store, en «App Store › Cuenta › Suscripciones»; en Microsoft Store, en «Servicios y suscripciones» de tu cuenta Microsoft.
+- La compra, renovación y cancelación se gestionan en la tienda: en Mac App Store, en «App Store › Cuenta › Suscripciones».
 - En un equipo nuevo o tras reinstalar, elige «Restaurar compras» en «Help › AnnotaryCat Pro…».
-- Para solicitar un reembolso, contacta con Apple o Microsoft.
+- Para solicitar un reembolso, contacta con Apple.
 
 ### Preguntas frecuentes
 
