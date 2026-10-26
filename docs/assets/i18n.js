@@ -13,6 +13,10 @@
       const value = dictionary[element.dataset.i18n];
       if (typeof value === 'string') element.textContent = value;
     });
+    document.querySelectorAll('[data-i18n-alt]').forEach(element => {
+      const value = dictionary[element.dataset.i18nAlt];
+      if (typeof value === 'string') element.setAttribute('alt', value);
+    });
     document.querySelectorAll('[data-i18n-aria]').forEach(element => {
       const value = dictionary[element.dataset.i18nAria];
       if (typeof value === 'string') element.setAttribute('aria-label', value);

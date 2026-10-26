@@ -18,3 +18,8 @@
 
 /* Use the application artwork at its intrinsic square aspect ratio. */
 .brand img,.flow-app img{object-fit:contain;flex-shrink:0}.footer .brand img{width:28px;height:28px}
+
+/* App screenshots: the hero shot and the gallery under the workbench features. */
+.hero-shot{margin:0;min-width:0}.hero-shot img,.shot-grid img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid #d6dacd;background:#eaece3}.hero-shot img{box-shadow:0 25px 50px -25px #47543a55}.hero-shot figcaption{display:flex;justify-content:space-between;gap:12px;margin-top:14px;font-size:8px;letter-spacing:1px;color:#697262}.hero-shot figcaption span+span{letter-spacing:0;text-align:right}
+.shots{margin-top:70px;padding-top:40px;border-top:1px solid var(--line)}.shot-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:22px}.shot-grid figure{margin:0;min-width:0}.shot-grid figcaption{margin-top:14px;font-size:13px;line-height:1.8;color:var(--muted)}
+@media(max-width:760px){.shots{margin-top:45px;padding-top:30px}.shot-grid{grid-template-columns:1fr;gap:30px}.shot-grid figcaption{font-size:14px}.hero-shot figcaption{font-size:7px}}

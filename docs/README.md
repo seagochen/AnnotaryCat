@@ -16,8 +16,12 @@ and assets so the site works under that path.
   footer, homepage diagram and browser tab. Keep these in sync with the app;
   use `sips -Z 256 <source> --out docs/assets/app-icon.png` and the same command
   with `-Z 64` for `favicon.png`.
-- `index.md`: product homepage; the workbench illustration is HTML/CSS and is
-  explicitly labelled as an illustration, not an app screenshot.
+- `index.md`: product homepage. Its pictures are app screenshots in
+  `assets/screenshots/`, JPEG copies of the app repository's
+  `assets/screenshots/*.png` (`sips -s format jpeg -s formatOptions 82 <png>
+  --out <jpg>`); the sample images in them are synthetic. Replace them when the
+  app's screenshots change. Captions and `alt` text are translated
+  (`data-i18n-alt`).
 - `privacy.md`, `terms.md`, `support.md`: multilingual resource pages. Their
   existing permalinks are part of the app's public links; keep them stable.
 
