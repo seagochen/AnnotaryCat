@@ -6,6 +6,8 @@ AnnotaryCat is free to use. In the first release, the free plan covers local obj
 
 For the first release, you buy a monthly or yearly subscription in the Mac App Store. Apple charges your store account when you confirm the purchase. The price is the one the store shows on the purchase sheet, and may vary by region and tax. We never see your payment details.
 
+**Free trial.** Each subscription includes a one-week free trial for an account that has not had one in the AnnotaryCat Pro subscription group; the app's AnnotaryCat Pro page shows it only when your account is eligible. You are not charged during the trial. When the trial ends, the subscription starts and the price shown is charged, unless you cancel at least 24 hours before the trial ends. If you cancel during the trial, Pro stays active until the trial ends.
+
 ### 3. Automatic renewal and cancellation
 
 - The subscription renews automatically for the same period at the then-current price unless it is cancelled at least 24 hours before the end of the current period. The renewal is charged within the 24 hours before the period ends.
