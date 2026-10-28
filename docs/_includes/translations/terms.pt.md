@@ -6,6 +6,8 @@ O AnnotaryCat pode ser usado gratuitamente. Na primeira versão, o plano gratuit
 
 Na primeira versão, a assinatura mensal ou anual é comprada na Mac App Store. A Apple cobra a sua conta da loja quando você confirma a compra. Vale o preço exibido na tela de compra, que pode variar conforme região e impostos. Nunca temos acesso aos seus dados de pagamento.
 
+**Teste grátis.** Cada assinatura inclui um teste grátis de uma semana para contas que ainda não o usaram no grupo de assinaturas AnnotaryCat Pro; a página AnnotaryCat Pro do app só o mostra quando sua conta é elegível. Nada é cobrado durante o teste. Ao fim do teste, a assinatura começa e o preço mostrado é cobrado, a menos que você cancele pelo menos 24 horas antes do fim do teste. Se você cancelar durante o teste, o Pro continua ativo até o fim do teste.
+
 ### 3. Renovação automática e cancelamento
 
 - A assinatura é renovada automaticamente pelo mesmo período e pelo preço vigente, salvo cancelamento com pelo menos 24 horas de antecedência do fim do período atual. A renovação é cobrada nas 24 horas anteriores ao fim do período.

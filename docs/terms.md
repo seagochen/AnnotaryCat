@@ -5,8 +5,7 @@ permalink: /terms/
 
 <h1><span data-i18n="terms">Subscription Terms</span></h1>
 
-<blockquote data-i18n="draft">Draft: to be reviewed by the account holder (and a lawyer where needed) before release. The effective date and contact details will be filled in at release.</blockquote>
-<p data-i18n="tbd">Effective date: TBD</p>
+<p data-i18n="effective">Effective date: October 28, 2026</p>
 
 <section class="localized-content" lang="en" data-content-language="en">
 {% capture translated_content %}{% include translations/terms.en.md %}{% endcapture %}
