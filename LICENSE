@@ -1,21 +1,59 @@
-MIT License
+AnnotaryCat Proprietary License
 
-Copyright (c) 2026 Orlando Chen
+Copyright (c) 2026 Orlando Chen. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Ownership
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+AnnotaryCat, including its source code, object code, documentation, images
+and other materials (the "Software"), is owned by the copyright holder and
+is protected by copyright law and international treaties. The Software is
+licensed, not sold.
+
+2. Source code
+
+The source code of the Software is confidential. No right to access, use,
+copy, modify, merge, publish, distribute, sublicense or sell copies of the
+source code, in whole or in part, is granted by this license. Any such use
+requires the prior written permission of the copyright holder.
+
+3. Use of the application
+
+You may install and use the AnnotaryCat application that you obtained
+through the Mac App Store, the Microsoft Store or another channel the
+copyright holder has authorised, under:
+
+  a. the license agreement of that store (for the Mac App Store, Apple's
+     Licensed Application End User License Agreement; for the Microsoft
+     Store, Microsoft's Standard Application License Terms), and
+  b. the AnnotaryCat Subscription Terms,
+     https://seagochen.github.io/AnnotaryCat/terms/
+
+You may not copy, redistribute, rent, lease or lend the application, and
+you may not reverse engineer, decompile, disassemble or modify it, or work
+around the limits of the free plan, except to the extent applicable law
+expressly permits this despite this restriction.
+
+4. Third-party components
+
+The Software includes third-party components distributed under their own
+licenses, which are listed in the application's About dialog and included
+with it (for example, the FFmpeg libraries and tools under the GNU Lesser
+General Public License, version 2.1 or later). Nothing in this license
+limits the rights those licenses grant for those components.
+
+5. No warranty
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+6. Limitation of liability
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE COPYRIGHT
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING LOSS
+OF DATA OR ANY INDIRECT OR CONSEQUENTIAL DAMAGES, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+7. Contact
+
+https://github.com/seagochen/AnnotaryCat/issues
