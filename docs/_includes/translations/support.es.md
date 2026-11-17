@@ -1,19 +1,17 @@
-### Informar de problemas o sugerir funciones
+**Informar de un problema o sugerir una función:** abre una incidencia en <https://github.com/seagochen/AnnotaryCat/issues>. En la aplicación, Ayuda › Informar de un problema… te deja revisar los archivos y exportar primero un ZIP de diagnóstico al lugar que elijas. Si continúas hacia GitHub, se abre esa página para que adjuntes el paquete y la envíes. El paquete solo contiene la versión, información del sistema y los registros (que guardan nombres de comandos, códigos de error y duraciones, nunca datos de proyectos, contenido de archivos ni contraseñas). Una vez adjuntos, la incidencia y el paquete son públicos.
 
-[Abre un issue en GitHub](https://github.com/seagochen/AnnotaryCat/issues). En la aplicación, «Help › Send a problem report…» abre esa página y crea un paquete de diagnóstico para que lo revises y adjuntes. Solo contiene la versión, información del sistema y registros; estos incluyen nombres de comandos, códigos de error y duraciones, nunca datos de proyectos, contenidos de archivos ni contraseñas. Al adjuntarlo, tanto el issue como el archivo serán públicos.
+**Suscripciones:**
+- La suscripción, la renovación y la cancelación se gestionan en la tienda desde la que instalaste la aplicación:
+  - Mac App Store: App Store › Cuenta › Suscripciones;
+  - Microsoft Store: <https://account.microsoft.com/services>, con la cuenta Microsoft con la que la compraste.
+- «Gestionar suscripción», en Ayuda › AnnotaryCat Pro… de la aplicación, abre la página correspondiente.
+- En un ordenador nuevo o tras reinstalar, inicia sesión en la tienda con la cuenta con la que compraste y elige «Restaurar compras» en Ayuda › AnnotaryCat Pro….
+- Las suscripciones se compran por separado en cada tienda y no se trasladan de una a otra.
+- Reembolsos: para Mac App Store, solicítalos a Apple; para Microsoft Store, a Microsoft, según sus Términos de venta y la legislación de tu país.
 
-### Suscripciones
-
-- La compra, renovación y cancelación se gestionan en la tienda: en Mac App Store, en «App Store › Cuenta › Suscripciones».
-- En un equipo nuevo o tras reinstalar, elige «Restaurar compras» en «Help › AnnotaryCat Pro…».
-- Para solicitar un reembolso, contacta con Apple.
-
-### Preguntas frecuentes
-
-**¿Dónde están mis datos?** En la carpeta de trabajo que elijas. La aplicación no sube ningún dato.
-
-**¿Por qué la versión de Mac App Store no puede iniciar el entrenamiento?** Funciona en el entorno aislado del sistema y no puede iniciar programas externos. AnnotaryCat verifica el conjunto de datos, escribe la configuración y un script de entrenamiento, y te proporciona el comando para ejecutarlo en Terminal.
-
-**¿Por qué pide de nuevo la carpeta de trabajo tras reinstalar la versión de Mac App Store?** Los permisos del entorno aislado están vinculados a la firma de la aplicación. Tras reinstalar o cambiar de versión, puede ser necesario volver a elegir las carpetas de trabajo y del conjunto de datos.
-
-**¿Se conservan mis datos al terminar la suscripción?** Sí. Los proyectos que necesitan Pro se pueden seguir consultando y exportando, pero no modificar hasta que te suscribas de nuevo.
+**Preguntas frecuentes:**
+- *¿Dónde están mis datos?* De forma predeterminada, en la carpeta de datos `AnnotaryCat` dentro de tu carpeta Documentos (dentro del contenedor de la aplicación en la versión de Mac App Store); los proyectos guardados en un lugar que elegiste o vinculados a una carpeta permanecen allí. Preferencias › Almacenamiento muestra las rutas. En Windows, la configuración de la aplicación está en `%LOCALAPPDATA%\AnnotaryCat`, y los servidores guardados y las claves de inicio de sesión SSH están en `%APPDATA%\homology`, compartida con Crescent, del mismo desarrollador. La aplicación no envía datos al desarrollador. Si eliges una fuente de datos remota o ejecutas un modelo en tu propio servidor, los archivos y las anotaciones solo se transfieren entre tu ordenador y el servidor o almacenamiento que configures.
+- *¿Qué puede hacer ReID?* Es una función de Pro. Puedes importar conjuntos de datos de recortes con formato Market-1501, consultar las pistas, apartar las que no sirvan, comprobar conflictos de identidad, revisar pares candidatos y cerrar la revisión, y exportar como Market-1501 o como lista de pares. Con tu propio código entrenado como modelo personalizado y exportado a ONNX, puedes extraer características y buscar nuevos pares candidatos para revisar en este ordenador (no en conjuntos de datos de un host).
+- *¿Qué necesitan los modelos personalizados?* Tu propio entorno de Python (en este ordenador o en tu servidor SSH) y tu propio código; la aplicación ofrece plantillas, copia el código y los datos, inicia las ejecuciones y recoge sus resultados, y nunca entrena dentro de la aplicación. La versión de Mac App Store solo puede usar entornos en servidores remotos.
+- *¿Por qué la versión de Mac App Store vuelve a pedir las carpetas de datos tras reinstalarla?* Los permisos del sandbox están ligados a la firma de la aplicación; tras reinstalar o cambiar de versión puede que tengas que volver a elegir las carpetas de datos vinculadas.
+- *¿Siguen mis datos cuando termina la suscripción?* Sí. Los proyectos que requieren Pro se pueden seguir consultando y exportando, pero no modificar hasta que vuelvas a suscribirte.

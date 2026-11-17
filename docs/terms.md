@@ -5,7 +5,7 @@ permalink: /terms/
 
 <h1><span data-i18n="terms">Subscription Terms</span></h1>
 
-<p data-i18n="effective">Effective date: October 28, 2026</p>
+<p data-i18n="effective">Effective date: November 17, 2026</p>
 
 <section class="localized-content" lang="en" data-content-language="en">
 {% capture translated_content %}{% include translations/terms.en.md %}{% endcapture %}
