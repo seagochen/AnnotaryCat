@@ -2,6 +2,8 @@
 
 [English](README.md) · [중국어 간체](README.zh-CN.md) · [日本語](README.ja.md) · **한국어** · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md)
 
+**다운로드:** [Mac App Store](https://apps.apple.com/us/app/annotarycat/id6827162849) · [Microsoft Store](https://apps.microsoft.com/detail/9P5CDT86WH8P)
+
 이 저장소에서는 AnnotaryCat의 문제 보고와 기능 요청을 받습니다.
 
 > **이곳의 모든 내용은 공개됩니다.** 누구나 issue를 읽고 첨부 파일을 내려받을 수 있습니다. 비밀번호, API 토큰, SSH 키, 공개해서는 안 되는 이미지나 데이터는 올리지 마세요.

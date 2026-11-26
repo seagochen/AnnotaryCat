@@ -2,6 +2,8 @@
 
 [English](README.md) · **简体中文** · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md)
 
+**下载：** [Mac App Store](https://apps.apple.com/us/app/annotarycat/id6827162849) · [Microsoft Store](https://apps.microsoft.com/detail/9P5CDT86WH8P)
+
 这个仓库收集 AnnotaryCat 的问题报告和功能建议。
 
 > **这里的所有内容都是公开的。** 任何人都能阅读 issue 并下载其中的附件。请不要上传密码、API 令牌、SSH 密钥，也不要上传你无权公开的图片或数据。

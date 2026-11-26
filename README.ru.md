@@ -2,6 +2,8 @@
 
 [English](README.md) · [Китайский (упрощённый)](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · **Русский**
 
+**Скачать:** [Mac App Store](https://apps.apple.com/us/app/annotarycat/id6827162849) · [Microsoft Store](https://apps.microsoft.com/detail/9P5CDT86WH8P)
+
 В этом репозитории собираются сообщения об ошибках и предложения новых функций для AnnotaryCat.
 
 > **Всё, что здесь публикуется, открыто для всех.** Любой может прочитать issue и скачать вложения. Не публикуйте пароли, API-токены, SSH-ключи, а также изображения и данные, которыми вы не имеете права делиться.

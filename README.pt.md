@@ -2,6 +2,8 @@
 
 [English](README.md) · [Chinês simplificado](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · **Português** · [Русский](README.ru.md)
 
+**Baixar:** [Mac App Store](https://apps.apple.com/us/app/annotarycat/id6827162849) · [Microsoft Store](https://apps.microsoft.com/detail/9P5CDT86WH8P)
+
 Este repositório reúne relatos de problemas e sugestões de recursos para o AnnotaryCat.
 
 > **Tudo o que é publicado aqui é público.** Qualquer pessoa pode ler as issues e baixar os anexos. Não publique senhas, tokens de API, chaves SSH nem imagens ou dados que você não tenha permissão para compartilhar.

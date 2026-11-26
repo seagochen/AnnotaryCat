@@ -2,6 +2,8 @@
 
 [English](README.md) · [簡体字中国語](README.zh-CN.md) · **日本語** · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md)
 
+**ダウンロード：** [Mac App Store](https://apps.apple.com/us/app/annotarycat/id6827162849) · [Microsoft Store](https://apps.microsoft.com/detail/9P5CDT86WH8P)
+
 このリポジトリでは、AnnotaryCat の不具合報告と機能の要望を受け付けています。
 
 > **ここに投稿した内容はすべて公開されます。** 誰でも issue を読み、添付ファイルをダウンロードできます。パスワード、API トークン、SSH 鍵、公開してはいけない画像やデータは投稿しないでください。

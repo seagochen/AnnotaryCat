@@ -22,6 +22,9 @@ and assets so the site works under that path.
   --out <jpg>`); the sample images in them are synthetic. Replace them when the
   app's screenshots change. Captions and `alt` text are translated
   (`data-i18n-alt`).
+- `_includes/store-buttons.html`: the Mac App Store and Microsoft Store buttons,
+  used in the homepage hero and its download section; the footer links to the
+  same two store pages. Change the store URLs there and in the footer together.
 - `privacy.md`, `terms.md`, `support.md`: multilingual resource pages. Their
   existing permalinks are part of the app's public links; keep them stable.
 
