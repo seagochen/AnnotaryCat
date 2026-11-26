@@ -3,7 +3,7 @@
   const dictionaryUrl = new URL('translations.json', document.currentScript.src);
   const select = document.getElementById('language-select');
   const root = document.documentElement;
-  const titles = { '/privacy/': 'privacy', '/terms/': 'terms', '/support/': 'supportFaq' };
+  const titles = { '/download/': 'download', '/privacy/': 'privacy', '/terms/': 'terms', '/support/': 'supportFaq' };
 
   function apply(language, dictionaries, persist = false) {
     const dictionary = dictionaries[language] || dictionaries.en;

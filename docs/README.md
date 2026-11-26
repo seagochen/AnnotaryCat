@@ -22,9 +22,8 @@ and assets so the site works under that path.
   --out <jpg>`); the sample images in them are synthetic. Replace them when the
   app's screenshots change. Captions and `alt` text are translated
   (`data-i18n-alt`).
-- `_includes/store-buttons.html`: the Mac App Store and Microsoft Store buttons,
-  used in the homepage hero and its download section; the footer links to the
-  same two store pages. Change the store URLs there and in the footer together.
+- `download.html`: platform requirements and the two store links. The homepage
+  and shared navigation link to this page.
 - `privacy.md`, `terms.md`, `support.md`: multilingual resource pages. Their
   existing permalinks are part of the app's public links; keep them stable.
 
@@ -33,7 +32,7 @@ Policy/support source text also lives in the app repository's
 shared layout and homepage design. The terms remain a draft until reviewed.
 
 For a full local build, install Jekyll and run `jekyll serve --source docs`.
-Check the homepage and all three resource pages at desktop and phone widths
+Check the homepage, download page and all three resource pages at desktop and phone widths
 before publishing. Pushes to the configured GitHub Pages branch publish the
 site; local edits alone do not.
 

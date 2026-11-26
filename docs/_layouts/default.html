@@ -18,17 +18,17 @@
   <nav aria-label="Main navigation" data-i18n-aria="mainNav">
     <a href="{{ '/' | relative_url }}" {% if page.home %}aria-current="page"{% endif %}><span data-i18n="overview">Overview</span></a>
     <a href="{{ '/support/' | relative_url }}" {% if page.url == '/support/' %}aria-current="page"{% endif %}><span data-i18n="support">Support</span></a>
-    <a class="nav-download" href="{{ '/' | relative_url }}#download"><span data-i18n="download">Download</span></a>
+    <a href="{{ '/download/' | relative_url }}" {% if page.url == '/download/' %}aria-current="page"{% endif %}><span data-i18n="download">Download</span></a>
     <a class="nav-github" href="https://github.com/seagochen/AnnotaryCat/issues"><span data-i18n="feedback">Feedback ↗</span></a>
     <label class="language-picker"><span class="sr-only" data-i18n="language">Language</span><select id="language-select" aria-label="Language"><option value="en">English</option><option value="zh-CN">简体中文</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="es">Español</option><option value="pt">Português</option><option value="ru">Русский</option></select></label>
   </nav>
 </header>
-<main id="main" {% unless page.home %}class="document wrap"{% endunless %}>
-{% if page.home %}{{ content }}{% else %}
+<main id="main" {% unless page.home or page.download %}class="document wrap"{% endunless %}>
+{% if page.home or page.download %}{{ content }}{% else %}
   <aside class="document-nav"><span class="eyebrow"><span data-i18n="resources">RESOURCES</span></span><a href="{{ '/support/' | relative_url }}" {% if page.url == '/support/' %}aria-current="page"{% endif %}><span data-i18n="supportFaq">Support &amp; FAQ</span> <span>↗</span></a><a href="{{ '/privacy/' | relative_url }}" {% if page.url == '/privacy/' %}aria-current="page"{% endif %}><span data-i18n="privacy">Privacy Policy</span> <span>↗</span></a><a href="{{ '/terms/' | relative_url }}" {% if page.url == '/terms/' %}aria-current="page"{% endif %}><span data-i18n="terms">Subscription Terms</span> <span>↗</span></a><p><span data-i18n="localWork">Local work. Your data.</span><br><span data-i18n="yourControl">Your control.</span></p></aside>
   <article class="prose">{{ content }}</article>
 {% endif %}
 </main>
-<footer class="footer wrap"><div><a class="brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/app-icon.png' | relative_url }}" width="28" height="28" alt="">AnnotaryCat</a><p><span data-i18n="footerCopy">Made for people who care about their data.</span><br><span data-i18n="footerSlogan">Local work. Your data. Your control.</span></p></div><nav aria-label="Footer navigation" data-i18n-aria="footerNav"><a href="{{ '/privacy/' | relative_url }}"><span data-i18n="privacy">Privacy Policy</span></a><a href="{{ '/terms/' | relative_url }}"><span data-i18n="terms">Subscription Terms</span></a><a href="{{ '/support/' | relative_url }}"><span data-i18n="support">Support</span></a><a href="https://apps.apple.com/us/app/annotarycat/id6827162849">Mac App Store ↗</a><a href="https://apps.microsoft.com/detail/9P5CDT86WH8P">Microsoft Store ↗</a><a href="https://github.com/seagochen/AnnotaryCat">GitHub ↗</a></nav><small>© {{ 'now' | date: '%Y' }} Orlando Chen</small></footer>
+<footer class="footer wrap"><div><a class="brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/app-icon.png' | relative_url }}" width="28" height="28" alt="">AnnotaryCat</a><p><span data-i18n="footerCopy">Made for people who care about their data.</span><br><span data-i18n="footerSlogan">Local work. Your data. Your control.</span></p></div><nav aria-label="Footer navigation" data-i18n-aria="footerNav"><a href="{{ '/privacy/' | relative_url }}"><span data-i18n="privacy">Privacy Policy</span></a><a href="{{ '/terms/' | relative_url }}"><span data-i18n="terms">Subscription Terms</span></a><a href="{{ '/support/' | relative_url }}"><span data-i18n="support">Support</span></a><a href="{{ '/download/' | relative_url }}"><span data-i18n="download">Download</span></a><a href="https://github.com/seagochen/AnnotaryCat">GitHub ↗</a></nav><small>© {{ 'now' | date: '%Y' }} Orlando Chen</small></footer>
 </body>
 </html>
